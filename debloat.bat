@@ -1,7 +1,3 @@
-cls
-title FreshPC v1.7 - Debloat
-echo Are you positive you want to debloat, this can take upwords of 10-60mins.
-echo [Press enter to continue, close the terminal to cancel.]
 pause >nul
 netsh winsock reset
 sfc /scannow
