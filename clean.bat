@@ -67,3 +67,4 @@ reg delete "HKCU\SOFTWARE\Microsoft\Direct3D\MostRecentApplication" /va /f
 reg delete "HKLM\SOFTWARE\Microsoft\Direct3D\MostRecentApplication" /va /f
 reg delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /va /f
 reg delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths" /va /f
+exit
