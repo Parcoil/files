@@ -593,13 +593,5 @@ cls
 taskkill /f /im explorer.exe
 start explorer.exe
 
-echo Thanks for using this script!
-timeout 5 >nul
-cls
-echo We would recommend also running tron, you can download tron from here: https://bmrf.org/repos/tron
-echo.
-echo Press "Enter" When Done With Debloater Thanks For Using This Script! (Tron is recommended).
-echo [Press Enter to Go Back to The Menu]
-pause >nul
-goto start
+exit
 ::Debloat End
