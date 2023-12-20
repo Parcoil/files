@@ -1,4 +1,3 @@
-pause >nul
 netsh winsock reset
 sfc /scannow
 dism /online /cleanup-image /checkhealth\
