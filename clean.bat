@@ -1,7 +1,6 @@
 
 echo Performing additional optimizations and cleanup...
 del /q /s "%temp%\*.*"
-cleanmgr /sagerun:1
 netsh winsock reset
 sfc /scannow
 
